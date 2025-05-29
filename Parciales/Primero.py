@@ -31,6 +31,7 @@ sueldo_neto = sueldo_quincenal+sobretiempo_diurno+sobretiempo_nocturno
 
 print("\n"*3,
 f"Nombre: {nombre}",
+f"Sueldo Mesual: {sueldo}",
 f"\nSueldo quincenal: {sueldo_quincenal}",
 f"\nSobre tiempo diurno: {horas_diurnas}h = {sobretiempo_diurno}bs",
 f"\nSobre tiempo nocturno: {horas_nocturnas} = {sobretiempo_nocturno}bs",

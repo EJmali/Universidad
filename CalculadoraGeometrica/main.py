@@ -3,6 +3,7 @@
 # TAREA DE PROGRAMACION
 # app que calcula el area de 13 figuras geometricas
 # Erick Liendo
+# Profesor: Edmundo Guiliani
 
 from math import pi, radians, sqrt, tan as tag
 from sys import exit as salir

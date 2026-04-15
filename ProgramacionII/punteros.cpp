@@ -13,7 +13,10 @@ int main() {
     string nombre = "Erick";
     int edad = 23;
     string *pnombre = &nombre;
-    int *pedad = &edad
+    int *pedad = &edad;
     
+    cout << "La direccion es: " << pnombre << "\n el dato es: " << *pnombre << endl;
+    cout << "La direccion es: " << pedad << "\n el dato es: " << *pedad << endl;
+
     return 0;
 }

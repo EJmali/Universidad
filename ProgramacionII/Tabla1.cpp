@@ -11,7 +11,7 @@ public:
     string nombre_apellido;
     string fecha_nacimiento;
     string lugar_nacimiento;
-    string carreras;
+    string carrera;
     
     // Constructor vació para inicializar el arreglo de la tabla
     Alumno() : nombre_apellido(""), fecha_nacimiento(""), lugar_nacimiento(""), carrera("") {}
@@ -56,13 +56,13 @@ int main()
         {
             string n, f, l, c;
             cout <<  "Nombre y Apellido: ";
-            getline(cin, n)
+            getline(cin, n);
             cout <<  "Fecha de Nacimiento: ";
-            getline(cin, f)
+            getline(cin, f);
             cout <<  "Lugar de Nacimiento: ";
-            getline(cin, l)
+            getline(cin, l);
             cout <<  "Carrera: ";
-            getline(cin, c)
+            getline(cin, c);
 
             Alumno nuevo(n, f, l, c);
             int indice =generarHash(n, TAMANO_TABLA);
